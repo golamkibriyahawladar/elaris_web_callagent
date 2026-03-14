@@ -1,0 +1,12 @@
+{
+  "name": "voice-widget",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node generate-bundle.js"
+  },
+  "dependencies": {
+    "eventemitter3": "^5.0.1",
+    "livekit-client": "^2.5.4",
+    "retell-client-js-sdk": "^4.0.0"
+  }
+}

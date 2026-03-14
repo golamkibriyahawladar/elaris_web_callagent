@@ -1,0 +1,8 @@
+[build]
+  publish = "public"
+  command = "node generate-bundle.js"
+
+[[redirects]]
+  from = "/create-web-call"
+  to   = "/.netlify/functions/create-web-call"
+  status = 200
